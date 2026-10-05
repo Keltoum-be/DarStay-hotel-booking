@@ -4,7 +4,7 @@ import Room from "./models/Room.js"
 dotenv.config()
 
 const hotel = { name: "Urbanza Suites", city: "New York", address: "Main Road 123 Street, 23 Colony" }
-const base = `http://localhost:${process.env.PORT || 5000}/images`
+const base = const base = "https://darstay-hotel-booking-production.up.railway.app/images"
 const img = (...n) => n.map((i) => `${base}/roomImg${i}.png`)
 
 const rooms = [
