@@ -17,7 +17,7 @@ const app = express();
 
 app.use("/images", express.static(path.join(__dirname,"public/images")))
 
-// --- هادي هي الفكس ديال featured ---
+
 app.use(cors({
   origin: true, // كيقبل أي origin
   methods: ["GET","POST","PUT","DELETE","OPTIONS"],
